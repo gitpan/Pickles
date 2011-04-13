@@ -1,5 +1,6 @@
 Changes
 docs/README.md
+docs/Trigger.md
 eg/TinyURL/Changes
 eg/TinyURL/etc/config.pl
 eg/TinyURL/etc/container.pl
@@ -55,6 +56,7 @@ lib/Pickles/Response.pm
 lib/Pickles/Setup/Flavor.pm
 lib/Pickles/Util.pm
 lib/Pickles/View.pm
+lib/Pickles/View/.Xslate.pm.swp
 lib/Pickles/View/MicroTemplate.pm
 lib/Pickles/View/TT.pm
 lib/Pickles/View/Xslate.pm
@@ -113,6 +115,11 @@ t/MyApp/view/foo/bar.html
 t/MyApp/view/foo/bar.mt
 t/MyApp/view/foo/bar.tx
 t/MyApp/view/form.html
+t/MyApp/view/form2.html
+t/MyApp/view/form3.html
+t/MyApp/view/form_get.html
+t/MyApp/view/form_get2.html
+t/MyApp/view/form_skip.html
 t/MyApp/view/index.html
 t/MyApp/view/item/view.html
 t/MyApp/xt/01_podspell.t
